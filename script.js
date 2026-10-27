@@ -5,7 +5,7 @@
 // 1. KONFIGURASI EDITKUY
 // ========================================
 const EDITKUY_CONFIG = {
-  whatsappNumber: "6281234567890", // Ganti dengan nomor WhatsApp bisnis
+  whatsappNumber: "6285648277137", // Ganti dengan nomor WhatsApp bisnis
   businessName: "EditKuy"
 };
 
@@ -353,7 +353,7 @@ if (form && whatsappBtn && toast) {
     const number = EDITKUY_CONFIG.whatsappNumber.replace(/\D/g, "");
 
     // Cegah penggunaan nomor contoh
-    if (!number || number === "6281234567890") {
+    if (!number || number === "6285648277137") {
       showToast(
         "Atur nomor WhatsApp bisnis di konfigurasi JavaScript terlebih dahulu."
       );
